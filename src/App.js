@@ -18,6 +18,7 @@ function App() {
         <div>Phòng ban: {info.department.name}</div>
         <div>Số ngày nghỉ còn lại: {info.annualLeave}</div>
         <div>Số ngày đã làm thêm: {info.overTime}</div>
+        
     </div>
       );
     }else {
