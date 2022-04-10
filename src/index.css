@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.menu-bar {
+  background-color: #0d6efd;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+.menu-bar nav a {
+  color: #cdc3c3;
+  text-decoration: none;
+  padding: 30px 10px;
+}
+
+.menu-bar nav a:active {
+  color: #fff;
+}
+
+.menu-bar nav a:focus {
+  color: #fff;
+}
+
+.menu-icon {
+  margin-right: 10px;
+}
+
+#footer {
+  background-color: #04c8ee;
+}
+
+.staff-img {
+  width: 100%;
+  padding: 20px;
+}
+
+.staff-detail li {
+  margin-bottom: 10px;
+}
