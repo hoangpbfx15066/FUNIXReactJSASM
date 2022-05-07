@@ -14,7 +14,7 @@ function StaffDetail({ staff}) {
       </div>
       <div className='col-12 col-md-9 col-xl-8 staff-detail' style={{'padding' : '20px'}}>
         <List type="unstyled" style={{ textAlign: "left" }} >
-          <li style={{'font-size': '16px', 'font-weight': '600'}}>Họ và tên: {staff[0].name}</li>
+          <li style={{'fontSize': '16px', 'fontWeight': '600'}}>Họ và tên: {staff[0].name}</li>
           <li>Ngày sinh: {dateFormat(staff[0].doB, "dd/mm/yyyy")}</li>
           <li>Ngày vào công ty: {dateFormat(staff[0].startDate, "dd/mm/yyyy")}</li>
           <li>Phòng ban: {staff[0].department.name}</li>
